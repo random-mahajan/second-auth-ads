@@ -1,0 +1,168 @@
+{
+	"nodes": [
+		{
+			"width": 170,
+			"height": 121,
+			"id": "Agama-log-Node-7acae394-e114-4204-bd54-cf0f3c1c43c9",
+			"position": {
+				"x": 279,
+				"y": 85
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-7acae394-e114-4204-bd54-cf0f3c1c43c9",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 279,
+					"y": 85
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-7acae394-e114-4204-bd54-cf0f3c1c43c9",
+					"type": "Agama-log-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "\"basic\"",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "info",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "octicon:log-16"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 279,
+				"y": 85
+			}
+		},
+		{
+			"width": 170,
+			"height": 121,
+			"id": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 79,
+					"y": 85
+				},
+				"inRepeatBlock": false,
+				"agamaData": {
+					"id": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"inRepeatBlock": false,
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "basic",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"flowname": "co.basic"
+				},
+				"skake": false
+			},
+			"position": {
+				"x": 79,
+				"y": 85
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 79,
+				"y": 85
+			},
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c-Agama-log-Node-7acae394-e114-4204-bd54-cf0f3c1c43c9-33b2c6ac-6631-4b8e-b590-9c7149898b1f",
+			"type": "straight",
+			"source": "Agama-start-Flow-526d1245-c253-4947-b1c2-dc4a46d6fe8c",
+			"target": "Agama-log-Node-7acae394-e114-4204-bd54-cf0f3c1c43c9",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 15,
+		"zoom": 1
+	}
+}
